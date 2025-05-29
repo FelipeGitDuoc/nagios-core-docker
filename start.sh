@@ -1,5 +1,9 @@
 #!/bin/bash
 
+mkdir -p /usr/local/nagios/var/rw
+chmod 777 /usr/local/nagios/var/rw
+
+
 # Iniciar Apache
 service apache2 start
 

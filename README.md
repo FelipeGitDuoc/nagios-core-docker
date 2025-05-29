@@ -22,6 +22,6 @@ cd nagios-core-docker
 docker build -t nagios-core .
 
 docker run -d -p 80:80 --name nagios nagios-core
-
+http://[IP_PUBLICA_DE_TU_EC2]/nagios
 Usuario: nagiosadmin
 Contraseña: nagiosadmin
